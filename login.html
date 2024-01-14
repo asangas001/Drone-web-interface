@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="logo">
+      <img class="logo" src="logo.png" alt="DRONE HUB">
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="/home">Home</a></li>
+      <li><a href="/shop">Shop</a></li>
+      <li class="dropdown">
+        <a href="#">Drone Categories</a>
+        <ul class="dropdown-content">
+          <li><a href="#">Racing</a></li>
+          <li><a href="#">Photography</a></li>
+          <li><a href="#">Recreational</a></li>
+        </ul>
+      </li>
+      <li><a href="/about-us">About Us</a></li>
+      <li><a href="/sellers">Sellers Area</a></li>
+    </ul>
+
+    <div class="search-bar">
+      <form action="/search">
+        
+        <input class="input" type="text" placeholder="  Search by drone name">
+    
+        <button class="search-button" type="submit">Search</button>
+    </div>
+      </form>
+    
+
+      <!--<div class="log-in">
+        <a href="/login">
+          <img src="login.png" alt="L">
+          <span>Login/My Account</span>
+        </a>
+      </div> -->
+
+      <!--<li class="dropdown">
+        <a href="#">Drone Categories</a>
+        <ul class="dropdown-content">
+          <li><a href="#">Racing</a></li>
+          <li><a href="#">Photography</a></li>
+          <li><a href="#">Recreational</a></li>
+        </ul>-->
+
+
+      <div class="log-in dropdown">
+        <span href="#">Login/My Account</span>
+        <a href="#" class="dropdown-trigger">
+          <img src="login.png" alt="L">
+          
+        </a>
+        <ul class="login dropdown-content">
+          <li><a href="#">Log In / Sign Up</a></li>
+          <li><a href="#">My Orders</a></li>
+          <li><a href="#">My Coupons</a></li>
+          <li><a href="#">Wish List</a></li>
+          <li><a href="#">Payment</a></li>
+          <li><a href="#">Account Settings</a></li>
+        </ul>
+      </div>
+
+
+      
+  </nav>
+
+  </body>
+</html>

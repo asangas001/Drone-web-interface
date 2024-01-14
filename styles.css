@@ -1,0 +1,126 @@
+/* styles.css */
+body {
+    background-image: url('back.jpg');
+    background-size: cover; /* Ensure the background image covers the entire element */
+    background-position: center;
+    height: 100vh; /* Set the height of the body to 100% of the viewport height */
+    margin: 0; /* Remove default margin to ensure the body takes the full viewport */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #4e02b8;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 25px;
+    
+  }
+
+  
+  
+  .logo {
+    margin-right: 20px;
+    height: 40px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 30px;
+    align-items:end;
+    font-weight:bold:
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    color: #fff;
+    min-width: 150px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  
+  /* styles.css */
+
+/* ... your existing styles ... */
+
+.input{
+    border-width: 3px;
+    border-color: #4a90e2;
+    
+            
+
+}
+
+.search-button {
+    font: size 27px;
+    color: #fff;
+    background-color: #4a90e2;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    /* Add a button frame */
+    border: 2px solid #357ae8; /* Adjust the border color as needed */
+  }
+  
+  .search-button:hover {
+    background-color: #002052;
+  }
+  
+
+  .log-in:hover{
+    background-color:  #4e02b8;
+  }
+
+  .log-in > a {
+    display: flex; /* Make the link a flex container */
+    align-items: center; /* Vertically align icon and text */
+  }
+  
+  .log-in > a img {
+    margin-right: 10px; /* Add spacing between icon and text */
+    height: 35px;
+  }
+
+  .log-in > ul{
+    display: none;
+    position: absolute;
+    background-color: #222;
+    color: #fff;
+    min-width: ;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+
+  }
